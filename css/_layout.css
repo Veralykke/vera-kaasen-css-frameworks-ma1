@@ -1,8 +1,30 @@
-body{
-    background-color: #e5e5e5;
+html,
+body {
+    height: 100%;
 }
 
-footer{
+body {
+    background-color: var(--background-color);
     display: flex;
+    flex-direction: column;
+}
+
+footer {
+    flex-shrink: 0;
+	display: flex;
+	justify-content: space-between;
+	background-color: var(--nav-colour);
+	margin: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+footer > div {
+	display: flex;
     justify-content: space-between;
+    font-size: 1em;
+    background-color: white;
+}
+
+.wrapper {
+    flex: 1 0 auto;;
 }
