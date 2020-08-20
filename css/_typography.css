@@ -1,0 +1,16 @@
+h1,
+h2,
+h3,
+h4 {
+	font-family: "Archivo Narrow Regular", open Sans regular;
+}
+
+h1{
+    font-size: 34px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: var(--primary-colour);
+}
+h1.home{
+    color: var(--primary-colour);
+}

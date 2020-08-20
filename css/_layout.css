@@ -16,6 +16,7 @@ footer {
 	background-color: var(--nav-colour);
 	margin: 2rem;
     color: rgb(0, 0, 0);
+    padding: 0.5em;
 }
 
 footer > div {
