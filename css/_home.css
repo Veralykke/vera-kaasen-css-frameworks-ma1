@@ -1,0 +1,8 @@
+.home-block {
+margin: 15px;
+border-radius: 10px;
+padding: 1.5rem 2rem;
+background-color: var:(--nav-colour);
+display:flex;
+flex-direction: column;
+}
