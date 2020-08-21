@@ -5,6 +5,8 @@ h1 {
 .header {
   font-size: 34px;
   text-align: center;
+  margin-top: 48px;
+  margin-bottom: 48px;
 }
 
 .navbar {
@@ -15,6 +17,25 @@ h1 {
 .navbar-brand {
   font-color: #262626 !important;
   font-size: 36px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-brand {
+    margin-left: 22px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .navbar-brand {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .navbar-brand {
+    margin-left: 389px;
+  }
 }
 
 html,
@@ -51,6 +72,14 @@ body {
 .heading {
   padding-top: 120px;
   text-align: center;
+}
+
+.card {
+  max-width: 870px;
+  margin: 0 auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
 }
 
 /*
