@@ -5,8 +5,7 @@
 
 .navbar {
     background-color: var(--nav-colour) !important;
-    color:#F4F3EE ;
-    /*height: 70px;*/
+    color:#F4F3EE;
     text-transform: uppercase;
 }
 
