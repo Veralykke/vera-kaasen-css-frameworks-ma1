@@ -27,13 +27,15 @@ footer > div {
 }
 
 .wrapper {
-    flex: 1 0 auto;;
+    flex: 1 0 auto;
+    background-color: var(--background-colour);
 }
  .card-body{
      height: 355px;
      width: 357px;
      padding-top: 100%;
  }
+
 
  
  
