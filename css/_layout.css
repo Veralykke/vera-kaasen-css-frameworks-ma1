@@ -3,7 +3,7 @@ body {
     height: 100%;
 }
 
-body {
+body {s
     background-color: var(--background-color);
     display: flex;
     flex-direction: column;
