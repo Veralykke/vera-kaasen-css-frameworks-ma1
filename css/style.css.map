@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "AMAA,AAAA,OAAO,CAAA;EACH,gBAAgB,ELMP,OAAO;EKLhB,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;CAElB",
+    "sources": [
+        "../sass/style.scss",
+        "../sass/partials/_custom.scss",
+        "../sass/partials/_typography.scss",
+        "../sass/partials/_home.scss",
+        "../sass/partials/_nav.scss",
+        "../sass/partials/_layout.scss",
+        "../sass/partials/_footer.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

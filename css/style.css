@@ -1,1 +1,10 @@
-
+.footer {
+  background-color: #F4F3EE;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  font-size: 12px;
+}
+/*# sourceMappingURL=style.css.map */
