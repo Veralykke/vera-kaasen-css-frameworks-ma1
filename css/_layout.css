@@ -32,6 +32,7 @@ footer > div {
  .card-body{
      height: 355px;
      width: 357px;
+     padding-top: 100%;
  }
 
  
