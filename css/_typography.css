@@ -2,7 +2,7 @@ h1,
 h2,
 h3,
 h4 {
-	font-family: "Archivo Narrow Regular", open Sans regular;s
+	font-family: "Archivo Narrow Regular", open Sans regular;
 }
 
 h1{
@@ -14,3 +14,8 @@ h1{
 h1.home{
     color: var(--primary-colour);
 }
+
+.nav-item active{
+    color: var();
+}
+

@@ -3,7 +3,7 @@ body {
     height: 100%;
 }
 
-body {s
+body {
     background-color: var(--background-color);
     display: flex;
     flex-direction: column;
@@ -29,3 +29,7 @@ footer > div {
 .wrapper {
     flex: 1 0 auto;;
 }
+ .card-body{
+     height: 355px;
+     width: 357px;
+ }
