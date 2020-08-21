@@ -1,10 +1,82 @@
-.footer {
-  background-color: #F4F3EE;
-  padding: 1rem;
+h1 {
+  font-size: 34px;
+}
+
+.header {
+  font-size: 34px;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #F4F3EE !important;
+  height: 70px;
+}
+
+.navbar-brand {
+  font-color: #262626 !important;
+  font-size: 36px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #E5E5E5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 1rem;
-  font-size: 12px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card-body {
+  background-color: #F4F3EE;
+  padding-top: 100%;
+  border-radius: 25px;
+  margin: 25px;
+  background-color: none !important;
+  border: none !important;
+}
+
+.wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+.heading {
+  padding-top: 120px;
+  text-align: center;
+}
+
+/*
+.card{
+    border-radius: 0 !important;
+    background-color: none !important;
+}
+*/
+.footer {
+  background-color: #F4F3EE !important;
+  height: 44px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1em;
+  padding: 0.5em;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

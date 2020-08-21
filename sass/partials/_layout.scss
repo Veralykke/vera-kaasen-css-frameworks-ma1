@@ -1,0 +1,36 @@
+html,
+body {
+    height:100%;
+}
+
+body{
+    background-color: $background-colour;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card-body{
+    background-color: $nav-colour;
+    padding-top: 100%;
+    border-radius: 25px;
+    margin: 25px;
+    background-color: none !important;
+    border: none !important ;
+}
+
+
+.wrapper{
+   flex: 1 0 auto;
+}
+
+.heading{
+padding-top: 120px;
+text-align: center;
+}
+/*
+.card{
+    border-radius: 0 !important;
+    background-color: none !important;
+}
+*/

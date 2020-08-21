@@ -1,4 +1,8 @@
 .navbar{
-    background-color:$primary-colour;
- height: 100px;
+    background-color:$nav-colour !important;
+    height: 70px;
+}
+.navbar-brand{
+    font-color:$nav-font-colour !important;
+    font-size: 36px;
 }
