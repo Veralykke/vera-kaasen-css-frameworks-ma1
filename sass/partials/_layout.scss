@@ -1,6 +1,7 @@
 html,
 body {
     height:100%;
+   
 }
 
 body{
@@ -8,7 +9,11 @@ body{
     display: flex;
     flex-direction: column;
 }
-
+/*TESTE
+.container{
+    position: absolute !important;
+}
+*/
 
 .card-body{
     background-color: $nav-colour;
@@ -33,13 +38,22 @@ text-align: center;
     max-width: 870px;
     margin: 0 auto;
     flex: 1 0 auto;
-
 }
 
 
-/*
-.card{
-    border-radius: 0 !important;
-    background-color: none !important;
+div.card{
+  background: none;
+  border: none;
 }
-*/
+
+div.card-body{
+   
+    height: 240px;
+    width: 240px;
+}
+
+/*TESTE TESTE TESTE FUNGE IKKE */
+
+card-body .three{
+    border: 1px solid black!important;
+}

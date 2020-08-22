@@ -12,6 +12,9 @@ h1 {
 .navbar {
   background-color: #F4F3EE !important;
   height: 70px;
+  /*TESTE
+    position: relative !important;
+    */
 }
 
 .navbar-brand {
@@ -38,6 +41,11 @@ h1 {
   }
 }
 
+.navbar .active .nav-link {
+  color: #C32C72 !important;
+}
+
+/*NAVBAR TESTING */
 html,
 body {
   height: 100%;
@@ -54,6 +62,11 @@ body {
           flex-direction: column;
 }
 
+/*TESTE
+.container{
+    position: absolute !important;
+}
+*/
 .card-body {
   background-color: #F4F3EE;
   padding-top: 100%;
@@ -82,12 +95,21 @@ body {
           flex: 1 0 auto;
 }
 
-/*
-.card{
-    border-radius: 0 !important;
-    background-color: none !important;
+div.card {
+  background: none;
+  border: none;
 }
-*/
+
+div.card-body {
+  height: 240px;
+  width: 240px;
+}
+
+/*TESTE TESTE TESTE FUNGE IKKE */
+card-body .three {
+  border: 1px solid black !important;
+}
+
 .footer {
   background-color: #F4F3EE !important;
   height: 44px;
@@ -106,6 +128,9 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  text-align: center;
+}
+
+.2020 {
+  margin-right: 45px;
 }
 /*# sourceMappingURL=style.css.map */
