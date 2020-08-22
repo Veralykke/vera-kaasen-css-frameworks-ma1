@@ -2,11 +2,11 @@
     background-color:$nav-colour !important;
     height: 70px;
     /*TESTE
-    position: relative !important;
+      position: absolute !important;
     */
 }
 .navbar-brand{
-    font-color:$nav-font-colour !important;
+    font-color: $nav-font-colour !important;
     font-size: 36px;
     font-weight: 700;
 }
@@ -32,4 +32,12 @@
     color:$primary-colour-hover !important;
 }
 
-/*NAVBAR TESTING */
+/*NAVBAR TESTING 
+.collapse .navbar-collapse{
+    position: relative;
+}
+
+.nav-link{
+    position: absolute;
+}
+*/

@@ -1,9 +1,7 @@
 html,
 body {
     height:100%;
-   
 }
-
 body{
     background-color: $background-colour;
     display: flex;
@@ -13,8 +11,11 @@ body{
 .container{
     position: absolute !important;
 }
-*/
 
+.container:{
+    align-content: center;
+}
+*/
 .card-body{
     background-color: $nav-colour;
     padding-top: 100%;
@@ -23,8 +24,6 @@ body{
     background-color: none !important;
     border: none !important ;
 }
-
-
 .wrapper{
    flex: 1 0 auto;
 }
@@ -40,20 +39,61 @@ text-align: center;
     flex: 1 0 auto;
 }
 
-
 div.card{
   background: none;
   border: none;
 }
 
 div.card-body{
-   
     height: 240px;
-    width: 240px;
+    width: 255px;
+    box-shadow: 5px 10px 8px 10px #e2e2e2;
 }
 
 /*TESTE TESTE TESTE FUNGE IKKE */
-
 card-body .three{
     border: 1px solid black!important;
 }
+/*
+.container{
+    position: relative !important;
+}/*
+
+/*TESTE TESTE TESTE FUNGE IKKE */
+
+@media only screen and (min-width: 320px){
+    .navbar-brand{
+        margin-left: 24px;
+    } 
+    .header{
+        margin-top: 34px;
+        margin-bottom: 14px;
+    }
+ }
+
+@media only screen and (min-width: 375px){
+    div.card-body{
+        height: 240px;
+        width: 292px;
+    }
+    .header{
+        margin-top: 44px;
+        margin-bottom: 23px;
+    }
+    
+ }
+
+ @media only screen and (min-width: 1366px){
+    div.card-body{
+        height: 240px;
+        width: 255px;
+    }
+    .header{
+        margin-top: 44px;
+        margin-bottom: 23px;
+    }
+    
+ }
+
+
+
