@@ -12,13 +12,12 @@ h1 {
 .navbar {
   background-color: #F4F3EE !important;
   height: 70px;
-  /*TESTE
-      position: absolute !important;
-    */
+  /*testetesteteste*/
+  position: relative !important;
 }
 
 .navbar-brand {
-  font-color: #262626 !important;
+  color: #262626 !important;
   font-size: 36px;
   font-weight: 700;
 }
@@ -53,7 +52,15 @@ h1 {
 .nav-link{
     position: absolute;
 }
-*/
+
+   /*testetesteteste FUNKE IKKE NEJE
+.navbar a {
+    display: block;
+}
+ navbar-toggler-icon{
+     position: absolute;
+ }
+ */
 html,
 body {
   height: 100%;
@@ -119,11 +126,10 @@ div.card-body {
           box-shadow: 5px 10px 8px 10px #e2e2e2;
 }
 
-/*TESTE TESTE TESTE FUNGE IKKE */
-card-body .three {
-  border: 1px solid black !important;
+/*TESTE TESTE TESTE FUNGE IKKE 
+card-body .three{
+    border: 1px solid black!important;
 }
-
 /*
 .container{
     position: relative !important;
@@ -182,8 +188,10 @@ card-body .three {
   width: 100%;
 }
 
-/*TESTE*/
-.2020 {
-  margin-right: 45px;
+/*TESTE
+.2020{
+    margin-right:45px;
 }
+
+*/
 /*# sourceMappingURL=style.css.map */

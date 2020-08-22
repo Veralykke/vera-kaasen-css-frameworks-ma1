@@ -1,12 +1,12 @@
 .navbar{
     background-color:$nav-colour !important;
     height: 70px;
-    /*TESTE
-      position: absolute !important;
-    */
+    /*testetesteteste*/
+      position: relative !important;
 }
+
 .navbar-brand{
-    font-color: $nav-font-colour !important;
+    color: $nav-font-colour !important;
     font-size: 36px;
     font-weight: 700;
 }
@@ -40,4 +40,12 @@
 .nav-link{
     position: absolute;
 }
-*/
+
+   /*testetesteteste FUNKE IKKE NEJE
+.navbar a {
+    display: block;
+}
+ navbar-toggler-icon{
+     position: absolute;
+ }
+ */
