@@ -1,51 +1,88 @@
 html,
 body {
-    height:100%;
+	height: 100%;
 }
-body{
-    background-color: $background-colour;
-    display: flex;
-    flex-direction: column;
-}
-.navbar-brand{
-    margin-left: 9px;
-} 
-.card-body{
-    background-color: $nav-colour;
-    padding-top: 100%;
-    border-radius: 25px;
-    margin: 25px;
-    background-color: none !important;
-    border: none !important ;
-    width:280px!important;
-    margin-left: 6px !important;
-}
-.wrapper{
-   flex: 1 0 auto;
+body {
+	background-color: $background-colour;
+	display: flex;
+	flex-direction: column;
 }
 
-.heading{
-padding-top: 120px;
-text-align: center;
+.card-body {
+	background-color: $nav-colour;
+	padding-top: 100%;
+	border-radius: 25px;
+	margin: 25px;
+	background-color: none !important;
+	border: none !important;
+	width: 280px !important;
+	margin-left: 6px !important;
+}
+.wrapper {
+	flex: 1 0 auto;
 }
 
-.card{
-    max-width: 900px;
-    margin: 0 auto;
-    flex: 1 0 auto;
+.heading {
+	padding-top: 120px;
+	text-align: center;
 }
 
-div.card{
-  background: none;
-  border: none;
+.card {
+	max-width: 900px;
+	margin: 0 auto;
+	flex: 1 0 auto;
 }
 
-div.card-body{
-    height: 240px;
-    width: 255px;
+div.card {
+	background: none;
+	border: none;
+}
+
+div.card-body {
+	height: 240px;
+	width: 255px;
     box-shadow: 5px 10px 8px 10px #e2e2e2;
+    border-style: solid !important;
 }
 
+@media only screen and (min-width: 320px) {
+	.header {
+		margin-top: 34px;
+		margin-bottom: 14px;
+	}
+}
+
+@media only screen and (min-width: 375px) {
+	div.card-body {
+		height: 240px !important;
+		width: 314px !important;
+		margin-left: 15px !important;
+	}
+	.header {
+		margin-top: 44px;
+		margin-bottom: 23px;
+	}
+}
+
+@media only screen and (min-width: 1366px) {
+	div.card-body {
+		height: 240px;
+		width: 255px !important;
+	}
+	.header {
+		margin-top: 44px;
+		margin-bottom: 23px;
+	}
+	.hello {
+		margin-left: 139px !important;
+	}
+}
+
+@media only screen and (min-width: 1920px) {
+	.hello {
+		margin-left: 432px !important;
+	}
+}
 /*TESTE
 .container{
     position: absolute !important;
@@ -61,47 +98,3 @@ card-body .three{
 }/*
 
 /*TESTE TESTE TESTE FUNGE IKKE */
-
-@media only screen and (min-width: 320px){
-   
-    .header{
-        margin-top: 34px;
-        margin-bottom: 14px;
-    }
- }
-
-@media only screen and (min-width: 375px){
-    div.card-body{
-        height: 240px !important;
-        width: 314px !important;
-        margin-left: 15px !important;
-    }
-    .header{
-        margin-top: 44px;
-        margin-bottom: 23px;
-    }
-    
- }
-
- @media only screen and (min-width: 1366px){
-    div.card-body{
-        height: 240px;
-        width: 255px !important;
-    }
-    .header{
-        margin-top: 44px;
-        margin-bottom: 23px;
-    }
-    .hello{
-        margin-left: 139px !important;
-    }
-    
- }
-
- @media only screen and (min-width: 1920px){
-    .hello{
-        margin-left: 432px !important;
-    }
- }
-
-

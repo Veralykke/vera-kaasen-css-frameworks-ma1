@@ -15,6 +15,11 @@ h1 {
   z-index: 1;
 }
 
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 6px;
+}
+
 .card-body .three {
   border-style: solid !important;
   border-color: black !important;
@@ -24,21 +29,30 @@ h1 {
   z-index: 1 !important;
 }
 
-/*TESTE TESTE TESTE
-
-.nav-item{
-    position: absolute;
-}
-*/
 .navbar-brand {
   color: #262626 !important;
   font-size: 36px;
   font-weight: 700;
+  margin-left: 2px !important;
+}
+
+@media only screen and (min-width: 375px) {
+  .navbar-brand {
+    margin-left: 10px !important;
+  }
+  .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 14px !important;
+  }
 }
 
 @media only screen and (min-width: 768px) {
   .navbar-brand {
     margin-left: 37px !important;
+  }
+  .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 40px;
   }
 }
 
@@ -58,18 +72,6 @@ h1 {
   color: #C32C72 !important;
 }
 
-/*NAVBAR TESTING 
-.collapse .navbar-collapse{
-    position: relative;
-}
-   /*testetesteteste FUNKE IKKE NEJE
-.navbar a {
-    display: block;
-}
- navbar-toggler-icon{
-     position: absolute;
- }
- */
 html,
 body {
   height: 100%;
@@ -84,10 +86,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-.navbar-brand {
-  margin-left: 9px;
 }
 
 .card-body {
@@ -130,23 +128,9 @@ div.card-body {
   width: 255px;
   -webkit-box-shadow: 5px 10px 8px 10px #e2e2e2;
           box-shadow: 5px 10px 8px 10px #e2e2e2;
+  border-style: solid !important;
 }
 
-/*TESTE
-.container{
-    position: absolute !important;
-}
-*/
-/*TESTE TESTE TESTE FUNGE IKKE 
-card-body .three{
-    border: 1px solid black!important;
-}
-/*
-.container{
-    position: relative !important;
-}/*
-
-/*TESTE TESTE TESTE FUNGE IKKE */
 @media only screen and (min-width: 320px) {
   .header {
     margin-top: 34px;
@@ -186,9 +170,24 @@ card-body .three{
   }
 }
 
+/*TESTE
+.container{
+    position: absolute !important;
+}
+*/
+/*TESTE TESTE TESTE FUNGE IKKE 
+card-body .three{
+    border: 1px solid black!important;
+}
+/*
+.container{
+    position: relative !important;
+}/*
+
+/*TESTE TESTE TESTE FUNGE IKKE */
 .footer {
   background-color: #ffffff !important;
-  height: 44px;
+  height: 92px !important;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   margin-top: 2rem;
@@ -209,20 +208,11 @@ card-body .three{
 @media only screen and (min-width: 1366px) {
   .footer {
     background-color: #F4F3EE !important;
+    height: 44px !important;
   }
 }
 
-@media only screen and (min-width: 320px) {
-  .hello,
-  .2020 {
-    text-align: center !important;
-  }
+.footer {
+  height: 44px !important;
 }
-
-/*TESTE
-.2020{
-    margin-right:45px;
-}
-
-*/
 /*# sourceMappingURL=style.css.map */

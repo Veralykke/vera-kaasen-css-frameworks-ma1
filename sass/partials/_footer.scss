@@ -1,6 +1,6 @@
-.footer {
+.footer  {
 	background-color: $footer-colour !important;
-	height: 44px;
+	height: 92px !important;
 	flex-shrink: 0;
 	margin-top: 2rem;
 	display: flex;
@@ -16,17 +16,13 @@
 @media only screen and (min-width: 1366px) {
 	.footer {
 		background-color: $nav-colour !important;
+		height: 44px !important;
 	}
 }
-@media only screen and (min-width: 320px){
-    .hello,
-    .2020{
-        text-align: center !important;
-    }
-}
-/*TESTE
-.2020{
-    margin-right:45px;
-}
+@media only screen and (min-width: 768px){
 
-*/
+}.footer {
+		height: 44px !important;
+	}
+
+

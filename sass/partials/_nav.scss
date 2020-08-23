@@ -3,6 +3,10 @@
     position: relative !important; 
     z-index: 1;
 }
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 6px;
+}
 .card-body .three{
     border-style: solid !important;
     border-color: black !important;
@@ -10,21 +14,29 @@
 .collapse .navbar-collapse{
     z-index:1 !important;
 }
-/*TESTE TESTE TESTE
-
-.nav-item{
-    position: absolute;
-}
-*/
 .navbar-brand{
     color: $nav-font-colour !important;
     font-size: 36px;
     font-weight: 700;
+    margin-left: 2px !important;
 }
-
+ 
+@media only screen and (min-width: 375px){
+    .navbar-brand{
+        margin-left: 10px !important;
+    }
+    .navbar-nav .nav-link {
+        padding-right: 0;
+        padding-left: 14px !important;
+    }
+}
  @media only screen and (min-width: 768px){
     .navbar-brand{
         margin-left: 37px !important;
+    }
+    .navbar-nav .nav-link {
+        padding-right: 0;
+        padding-left: 40px;
     }
  }
 
@@ -42,16 +54,3 @@
  .navbar .active .nav-link {
     color:$primary-colour-hover !important;
 }
-
-/*NAVBAR TESTING 
-.collapse .navbar-collapse{
-    position: relative;
-}
-   /*testetesteteste FUNKE IKKE NEJE
-.navbar a {
-    display: block;
-}
- navbar-toggler-icon{
-     position: absolute;
- }
- */
