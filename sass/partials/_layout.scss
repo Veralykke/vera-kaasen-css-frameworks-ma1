@@ -7,15 +7,9 @@ body{
     display: flex;
     flex-direction: column;
 }
-/*TESTE
-.container{
-    position: absolute !important;
-}
-
-.container:{
-    align-content: center;
-}
-*/
+.navbar-brand{
+    margin-left: 9px;
+} 
 .card-body{
     background-color: $nav-colour;
     padding-top: 100%;
@@ -23,6 +17,8 @@ body{
     margin: 25px;
     background-color: none !important;
     border: none !important ;
+    width:280px!important;
+    margin-left: 6px !important;
 }
 .wrapper{
    flex: 1 0 auto;
@@ -34,7 +30,7 @@ text-align: center;
 }
 
 .card{
-    max-width: 870px;
+    max-width: 900px;
     margin: 0 auto;
     flex: 1 0 auto;
 }
@@ -50,6 +46,11 @@ div.card-body{
     box-shadow: 5px 10px 8px 10px #e2e2e2;
 }
 
+/*TESTE
+.container{
+    position: absolute !important;
+}
+*/
 /*TESTE TESTE TESTE FUNGE IKKE 
 card-body .three{
     border: 1px solid black!important;
@@ -62,9 +63,7 @@ card-body .three{
 /*TESTE TESTE TESTE FUNGE IKKE */
 
 @media only screen and (min-width: 320px){
-    .navbar-brand{
-        margin-left: 24px;
-    } 
+   
     .header{
         margin-top: 34px;
         margin-bottom: 14px;
@@ -73,8 +72,9 @@ card-body .three{
 
 @media only screen and (min-width: 375px){
     div.card-body{
-        height: 240px;
-        width: 292px;
+        height: 240px !important;
+        width: 314px !important;
+        margin-left: 15px !important;
     }
     .header{
         margin-top: 44px;
@@ -86,14 +86,22 @@ card-body .three{
  @media only screen and (min-width: 1366px){
     div.card-body{
         height: 240px;
-        width: 255px;
+        width: 255px !important;
     }
     .header{
         margin-top: 44px;
         margin-bottom: 23px;
     }
+    .hello{
+        margin-left: 139px !important;
+    }
     
  }
 
+ @media only screen and (min-width: 1920px){
+    .hello{
+        margin-left: 432px !important;
+    }
+ }
 
 

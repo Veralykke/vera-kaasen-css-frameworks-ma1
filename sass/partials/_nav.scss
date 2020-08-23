@@ -1,10 +1,21 @@
 .navbar{
     background-color:$nav-colour !important;
-    height: 70px;
-    /*testetesteteste*/
-      position: relative !important;
+    position: relative !important; 
+    z-index: 1;
 }
+.card-body .three{
+    border-style: solid !important;
+    border-color: black !important;
+}
+.collapse .navbar-collapse{
+    z-index:1 !important;
+}
+/*TESTE TESTE TESTE
 
+.nav-item{
+    position: absolute;
+}
+*/
 .navbar-brand{
     color: $nav-font-colour !important;
     font-size: 36px;
@@ -13,18 +24,18 @@
 
  @media only screen and (min-width: 768px){
     .navbar-brand{
-        margin-left: 22px;
+        margin-left: 37px !important;
     }
  }
 
  @media only screen and (min-width: 1366px){
     .navbar-brand{
-        margin-left: 100px;
+        margin-left: 130px !important;
     }
  }
  @media only screen and (min-width: 1920px){
     .navbar-brand{
-        margin-left: 389px;
+        margin-left: 418px !important;
     }
  }
 
@@ -36,11 +47,6 @@
 .collapse .navbar-collapse{
     position: relative;
 }
-
-.nav-link{
-    position: absolute;
-}
-
    /*testetesteteste FUNKE IKKE NEJE
 .navbar a {
     display: block;

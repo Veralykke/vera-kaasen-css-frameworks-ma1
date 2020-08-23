@@ -1,18 +1,29 @@
-.footer{
-    background-color:$nav-colour !important;
-    height: 44px;
-    flex-shrink: 0;
-    margin-top: 2rem;
-    display: flex;
-    justify-content: space-between;
-    font-size: 1em;
-    padding: 0.5em;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+.footer {
+	background-color: $footer-colour !important;
+	height: 44px;
+	flex-shrink: 0;
+	margin-top: 2rem;
+	display: flex;
+	justify-content: space-between;
+	font-size: 1em;
+	padding: 0.5em;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 }
 
+@media only screen and (min-width: 1366px) {
+	.footer {
+		background-color: $nav-colour !important;
+	}
+}
+@media only screen and (min-width: 320px){
+    .hello,
+    .2020{
+        text-align: center !important;
+    }
+}
 /*TESTE
 .2020{
     margin-right:45px;
