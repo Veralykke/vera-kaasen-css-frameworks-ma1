@@ -2,6 +2,8 @@ html,
 body {
 	height: 100%;
 }
+
+
 body {
 	background-color: $background-colour;
 	display: flex;
@@ -19,8 +21,9 @@ body {
 	margin-left: 6px !important;
 }
 .wrapper {
-	flex: 1 0 auto;
+    flex: 1 0 auto;
 }
+
 
 .heading {
 	padding-top: 120px;
@@ -42,9 +45,11 @@ div.card-body {
 	height: 240px;
 	width: 255px;
     box-shadow: 5px 10px 8px 10px #e2e2e2;
-    border-style: solid !important;
+    
 }
-
+div.card-body.three{
+    border: 2px solid #C32C72 !important;
+}
 @media only screen and (min-width: 320px) {
 	.header {
 		margin-top: 34px;
