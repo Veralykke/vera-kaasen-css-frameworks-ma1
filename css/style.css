@@ -188,7 +188,7 @@ card-body .three{
   height: 92px !important;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  margin-top: 2rem;
+  margin-top: 16rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -197,7 +197,6 @@ card-body .three{
           justify-content: space-between;
   font-size: 1em;
   padding: 0.5em;
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
