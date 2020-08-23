@@ -20,10 +20,6 @@ h1 {
   padding-left: 6px;
 }
 
-.collapse .navbar-collapse {
-  z-index: 1 !important;
-}
-
 .navbar-brand {
   color: #262626 !important;
   font-size: 36px;
@@ -55,11 +51,19 @@ h1 {
   .navbar-brand {
     margin-left: 130px !important;
   }
+  .navbar-collapse {
+    margin-right: 77px;
+    z-index: 1 !important;
+  }
 }
 
 @media only screen and (min-width: 1920px) {
   .navbar-brand {
-    margin-left: 418px !important;
+    margin-left: 394px !important;
+  }
+  .navbar-collapse {
+    margin-right: 343px;
+    z-index: 1 !important;
   }
 }
 
@@ -160,6 +164,10 @@ div.card-body.three {
   .hello {
     margin-left: 139px !important;
   }
+  /*
+	.nav-item .active{
+		margin-right: 45px;
+	}*/
 }
 
 @media only screen and (min-width: 1920px) {
@@ -206,13 +214,6 @@ card-body .three{
   text-align: center;
 }
 
-@media only screen and (min-width: 1366px) {
-  .footer {
-    background-color: #F4F3EE !important;
-    height: 44px !important;
-  }
-}
-
 @media only screen and (min-width: 768px) {
   .footer {
     height: 44px !important;
@@ -220,6 +221,34 @@ card-body .three{
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .footer {
+    background-color: #F4F3EE !important;
+    height: 44px !important;
+  }
+  .footer-text {
+    width: 30%;
+  }
+  .one {
+    text-align: left;
+  }
+  .two {
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .footer-text {
+    width: 8%;
+  }
+  .one {
+    text-align: left;
+  }
+  .two {
+    text-align: right;
   }
 }
 /*# sourceMappingURL=style.css.map */

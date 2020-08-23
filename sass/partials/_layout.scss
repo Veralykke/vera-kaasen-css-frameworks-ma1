@@ -22,8 +22,6 @@ body {
 .wrapper {
     flex: 1 0 auto;
 }
-
-
 .heading {
 	padding-top: 120px;
 	text-align: center;
@@ -80,6 +78,11 @@ div.card-body.three{
 	.hello {
 		margin-left: 139px !important;
 	}
+
+	/*
+	.nav-item .active{
+		margin-right: 45px;
+	}*/
 }
 
 @media only screen and (min-width: 1920px) {
